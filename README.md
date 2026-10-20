@@ -11,7 +11,8 @@
 - Aprender a integrar modelos de IA en la programacion.
 - Detectar errores y vulnerabilidades.
 
-
+#Mi correo Institucional: 
+- omurguia1@ucol.mx
 
 
 <!--
