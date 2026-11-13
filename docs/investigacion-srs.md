@@ -1,4 +1,95 @@
-# SRS 
+# SRS
+## ¿Qué es un SRS/ERS y qué problemas evita en un proyecto? 
+Especificación de Requisitos de Seguridad por sus siglas “ERS” es un documento técnico que define los requisitos  técnicos y de seguridad para que cumpla con las regulaciones  necesarias, normas aplicables y el estado del sistema.
+La documentación clara y precisa es fundamental en el desarrollo de software porque alinea las expectativas entre el cliente y los programadores mediante una única interpretación posible, al tiempo que frena las desviaciones de alcance (scope creep) al exigir negociaciones aparte para cualquier función no contemplada. Asimismo, permite estimar tiempos y presupuestos realistas desde el inicio, evitando sobrecostos y retrasos al detectar errores tempranamente antes de escribir el código, mientras proporciona criterios objetivos para que el equipo de pruebas (QA) valide el producto final y actúa como memoria técnica indispensable para reducir la dependencia de personas clave y facilitar el mantenimiento futuro del sistema.
+//Utilice AI en el segundo texto para aumentar de manera rápida la información que escribí. 
+
+## ¿Qué secciones propone el estándar IEEE 830 y qué va en cada una?
+-	Introducción
+    -	Proporciona un adelanto del documento de especificación de requerimientos en software, por ejemplo:
+        -	Propósito: define le propósito y a quien va dirigido
+        -	Ámbito: nombra al futuro sistema, explica su función y lo que no hará, describe beneficios, objetivos y metas a futuro.
+        -	Definiciones: define los acrónimos, términos y abreviaturas usadas
+        -	Referencias: lista de los documentos reverenciadores
+        -	Visión general: descriptiva breve de la  organización	
+-	Descripción General
+    -	Se describen todos aquellos factores que afectan al producto y a sus requerimientos.
+        -	Perspectiva del producto: relacionado con el futuro sistema con otros productos
+        -	Funciones del producto: un resumen de las funciones principales
+        -	Característica de usuario: tipo de usuario a que se dirige
+        -	Restricciones: se indica cualquier limitante de hardware o de seguridad entre otras.
+        -	Suposiciones y dependencias: cualquier factor que pueda alterar o afectar al sistema.
+-	Requerimientos específicos:
+    -	Contiene todos los requerimientos con un detallado suficiente para permitir diseñar un sistema que satisfaga dichos requerimientos
+        -	Interfaces externas: define los requerimientos que afecten a la interfaz de usuario.
+        -	Funciones: especificación de todas las funciones que el sistema llevara a cabo. Algunas de las formas sugeridas por el estándar radican en una jerarquización. Por ejemplo: tipo de usuario, por objetos, por objetivos, por funcionalidad, etc.
+        -	Requerimientos de rendimiento: incluye requerimientos relacionados con la carga esperada a soportar por el sistema
+        -	Restricciones de diseño: restricciones que afecten al diseño de la aplicación, como estándares internos o limitantes de hardware, etc.
+        -	Atributos del sistema: detalles como fiabilidad, mantenibilidad, seguridad, mecanismos de restricción, etc.
+-	Apéndices: 
+    -	Incluye la información relacionada a la ERS, peo non forme parte, como análisis de costo, restricciones especiales acerca del  lenguaje de  programación.
+-	Índice
+    -	Se proporciona un índice para poder tener un acceso rápido a la documentación presentada en la ERS.
+
+## ¿Cuáles son las características de un buen requerimiento (no ambiguo, verificable, etc.)? Busca un ejemplo bueno y uno malo. 
+•	Malo
+    o	Características:
+        	Ambiguos
+        	Inconsistentes
+        	Incorrectos
+        	Obsoletos
+        	Inviables
+    o	Consecuencias con los Requisitos mal estructurados:
+        	Difíciles de rastrear
+        	Descripción ambigua 
+        	Difíciles de verificar 
+    o	Ejemplos:
+        	El sistema debe tener buena usabilidad: Es vago. No está claro cómo medir la usabilidad. Cada grupo o rol de usuario interactúa con el producto de manera diferente.*citado de la página*
+        	El tiempo de respuesta debe ser inferior a 5 segundos: Cinco segundos es una medida objetiva pero no hay contexto. La característica del producto, el escenario, el estado del sistema o la configuración son ejemplos de contexto. *citado de la página*
+    o	¿Cómo evitarlo?
+        	El desarrollo de requisitos debe involucrar a todas las partes interesadas, incluidos evaluadores y expertos operativos. Los debates deben promover perspectivas diversas. Involucrar a todos los grupos de usuarios. La idea es solucionar los problemas desde el principio. Las inspecciones formales y las revisiones informales deben complementarse entre sí.
+
+-	Bueno 
+    -	    Características
+        -	Completo
+        -	Claro
+        -	Factible
+        -	Necesario
+        -	No ambiguo
+        -	Modificable
+    -	Elicitación de Requerimientos:
+        -	Proceso
+            -	Revisar y entender la situación actual
+            -	El dominio del problema para comprender el contexto, los problemas y las relaciones desde el punto de vista del usuario.
+            -	Identificar las fuentes de información para la identificación de los requisitos. 
+            -	El entorno de operación (Observación a los usuarios y funcionalidad típica con el fin proporcionar información para el sistema futuro).
+            -	Entorno de la organización.
+            -	Hacer uso de diferentes técnicas y herramientas para la identificación de la información.
+            -	Observar las estructuras y los patrones, tanto en la operación como en la organización.
+    -	Riesgos:
+        -	Los clientes no conocen o no tienen claro lo que quieren.
+        -	Los clientes no quieren comprometerse a tener un conjunto de requerimientos escritos.
+        -	Los clientes insisten en establecer nuevos requerimientos una vez que se han fijado la planificación y el coste.
+        -	La comunicación con los clientes es lenta.
+    -	Ejemplo:
+        -	El sistema de frenado debe detener por completo un vehículo que circula a una velocidad de 100 km/h en una distancia máxima de 40 metros sobre pavimento seco y plano, dentro de los 3 segundos posteriores a que el conductor presione el pedal de freno con una fuerza de 200 Newtons."
+//use IA para el ejemplo
+
+## ¿Qué plantillas y herramientas existen para escribir y versionar un SRS?
+
+ISO/IEC/IEEE 29148: Es el estándar internacional para la ingeniería de requisitos en todo el ciclo de vida del sistema y del software. En lugar de describir los métodos de desarrollo de productos, proporciona un marco común para obtener, analizar, documentar, revisar, validar, verificar y gestionar los requisitos de las necesidades iniciales de las partes interesadas a través de la entrega del sistema y el mantenimiento continuo. 
+
+Plantilla de Volere: La plantilla de especificación de requisitos de Volere es un documento estructurado que ayuda a los analistas de negocios y gerentes de proyectos a recopilar y organizar los requisitos del proyecto. 
+Esta plantilla le proporciona un formato estructurado para registrar qué debe hacer su software, quién lo usa, qué límites existen y qué problemas podría enfrentar en el futuro. Pero no ofrece un proceso paso a paso para obtener requisitos. 
+
+Plantilla Ágil (Historias de Usuario y Given-When-Then): Los criterios de aceptación Dar / Cuando / Entonces ofrecen un enfoque estructurado para definir el comportamiento esperado de las historias de usuario en el desarrollo ágil. Al dividir los criterios en tres secciones distintas – Dar, Cuándo y Entonces –, los equipos pueden lograr mayor claridad, capacidad de prueba y alineación, lo que en última instancia conduce a un desarrollo de productos más exitoso. Incorporar este formato en su proceso Agile puede ayudar a su equipo a ofrecer software de alta calidad que cumpla con las expectativas de los usuarios. 
+
+Plantilla de Karl Wiegers: Karl Wiegers es uno de los referentes más citados en ingeniería de requisitos. Su enfoque adapta la estructura del estándar IEEE 830 hacia un formato más práctico orientado a reglas de negocio y atributos de calidad.
+//aquí si use IA, aunque si avale  la información. Pero no tengo un link web donde avale la información
+
+
+
+
 ## Introducción:
 - El propósito de este proyecto es desarrollar un videojuego interactivo centrado en la exploración de cuerpos de agua (ríos, lagos y zonas costeras) para la recolección y venta de residuos sólidos. A través de sus mecánicas de juego, se busca concientizar a los jugadores sobre la grave problemática de la contaminación hídrica, fomentando la educación ambiental y demostrando de manera lúdica el impacto positivo de la limpieza y el reciclaje en los ecosistemas acuáticos.
 
