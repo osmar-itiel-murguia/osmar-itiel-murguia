@@ -87,8 +87,19 @@ Plantilla Ágil (Historias de Usuario y Given-When-Then): Los criterios de acept
 Plantilla de Karl Wiegers: Karl Wiegers es uno de los referentes más citados en ingeniería de requisitos. Su enfoque adapta la estructura del estándar IEEE 830 hacia un formato más práctico orientado a reglas de negocio y atributos de calidad.
 //aquí si use IA, aunque si avale  la información. Pero no tengo un link web donde avale la información
 
+## REFERENCIAS:
+-  CPI,( 20 de agosto de 2026) Especificación de Requisitos de Seguridad (ERS), https://cpi.com.ar/blogs/safety/especificacion-de-requisitos-de-seguridad-ers
+-  Ayala Cifuentes, G. P. (2009). Cómo mejorar las metodologías actuales de requerimientos basados en los estándares IEE 830, 1233 y 1362 [Tesis de pregrado, Universidad de las Américas]. Repositorio Institucional.
+-  Arvindpdmn,( 07 de febrero de 2026), Requisitos incorrectos, devopedia, https://devopedia.org/bad-requirements
+-  Paola Andrea Marmolejo Hurtado(),UNAD, https://repository.unad.edu.co/reproductor-ova/10596_35614/objetivos.html
+-  Modern requirements,( 16 de julio de 2026), Explicación de la norma ISO 29148: qué requiere y cómo ayudan los requisitos modernos, https://www.modernrequirements.com/blogs/iso-29148-explained/
+-  Modern requirements,(19 de noviembre de 2025), Plantilla de especificación de requisitos de Volere – ¿Qué es y qué necesita saber al respecto?, https://www.modernrequirements.com/blogs/volere-requirements-specification-template/
+-  Paradigma Visual,( 15 de septiembre de 2023), Give / When / Then Acceptance Criteria for User Stories in Agile Development, https://guides.visual-paradigm.com/give-when-then-acceptance-criteria-for-user-stories-in-agile-development/
+ 
 
 
+
+# REQUISITOS 
 
 ## Introducción:
 - El propósito de este proyecto es desarrollar un videojuego interactivo centrado en la exploración de cuerpos de agua (ríos, lagos y zonas costeras) para la recolección y venta de residuos sólidos. A través de sus mecánicas de juego, se busca concientizar a los jugadores sobre la grave problemática de la contaminación hídrica, fomentando la educación ambiental y demostrando de manera lúdica el impacto positivo de la limpieza y el reciclaje en los ecosistemas acuáticos.
