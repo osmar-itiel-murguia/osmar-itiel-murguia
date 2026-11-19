@@ -32,22 +32,22 @@ La documentación clara y precisa es fundamental en el desarrollo de software po
     -	Se proporciona un índice para poder tener un acceso rápido a la documentación presentada en la ERS.
 
 ## ¿Cuáles son las características de un buen requerimiento (no ambiguo, verificable, etc.)? Busca un ejemplo bueno y uno malo. 
-•	Malo
-    o	Características:
-        	Ambiguos
-        	Inconsistentes
-        	Incorrectos
-        	Obsoletos
-        	Inviables
-    o	Consecuencias con los Requisitos mal estructurados:
-        	Difíciles de rastrear
-        	Descripción ambigua 
-        	Difíciles de verificar 
-    o	Ejemplos:
-        	El sistema debe tener buena usabilidad: Es vago. No está claro cómo medir la usabilidad. Cada grupo o rol de usuario interactúa con el producto de manera diferente.*citado de la página*
-        	El tiempo de respuesta debe ser inferior a 5 segundos: Cinco segundos es una medida objetiva pero no hay contexto. La característica del producto, el escenario, el estado del sistema o la configuración son ejemplos de contexto. *citado de la página*
-    o	¿Cómo evitarlo?
-        	El desarrollo de requisitos debe involucrar a todas las partes interesadas, incluidos evaluadores y expertos operativos. Los debates deben promover perspectivas diversas. Involucrar a todos los grupos de usuarios. La idea es solucionar los problemas desde el principio. Las inspecciones formales y las revisiones informales deben complementarse entre sí.
+-	Malo
+    -     Características:
+        -	Ambiguos
+        -	Inconsistentes
+        -	Incorrectos
+        -	Obsoletos
+        -	Inviables
+    -	Consecuencias con los Requisitos mal estructurados:
+        -	Difíciles de rastrear
+        -	Descripción ambigua 
+        -	Difíciles de verificar 
+    -	Ejemplos:
+        -	El sistema debe tener buena usabilidad: Es vago. No está claro cómo medir la usabilidad. Cada grupo o rol de usuario interactúa con el producto de manera diferente.*citado de la página*
+        -	El tiempo de respuesta debe ser inferior a 5 segundos: Cinco segundos es una medida objetiva pero no hay contexto. La característica del producto, el escenario, el estado del sistema o la configuración son ejemplos de contexto. *citado de la página*
+    -	¿Cómo evitarlo?
+        -	El desarrollo de requisitos debe involucrar a todas las partes interesadas, incluidos evaluadores y expertos operativos. Los debates deben promover perspectivas diversas. Involucrar a todos los grupos de usuarios. La idea es solucionar los problemas desde el principio. Las inspecciones formales y las revisiones informales deben complementarse entre sí.
 
 -	Bueno 
     -	    Características
@@ -77,14 +77,14 @@ La documentación clara y precisa es fundamental en el desarrollo de software po
 
 ## ¿Qué plantillas y herramientas existen para escribir y versionar un SRS?
 
-ISO/IEC/IEEE 29148: Es el estándar internacional para la ingeniería de requisitos en todo el ciclo de vida del sistema y del software. En lugar de describir los métodos de desarrollo de productos, proporciona un marco común para obtener, analizar, documentar, revisar, validar, verificar y gestionar los requisitos de las necesidades iniciales de las partes interesadas a través de la entrega del sistema y el mantenimiento continuo. 
+- ISO/IEC/IEEE 29148: Es el estándar internacional para la ingeniería de requisitos en todo el ciclo de vida del sistema y del software. En lugar de describir los métodos de desarrollo de productos, proporciona un marco común para obtener, analizar, documentar, revisar, validar, verificar y gestionar los requisitos de las necesidades iniciales de las partes interesadas a través de la entrega del sistema y el mantenimiento continuo. 
 
-Plantilla de Volere: La plantilla de especificación de requisitos de Volere es un documento estructurado que ayuda a los analistas de negocios y gerentes de proyectos a recopilar y organizar los requisitos del proyecto. 
+- Plantilla de Volere: La plantilla de especificación de requisitos de Volere es un documento estructurado que ayuda a los analistas de negocios y gerentes de proyectos a recopilar y organizar los requisitos del proyecto. 
 Esta plantilla le proporciona un formato estructurado para registrar qué debe hacer su software, quién lo usa, qué límites existen y qué problemas podría enfrentar en el futuro. Pero no ofrece un proceso paso a paso para obtener requisitos. 
 
-Plantilla Ágil (Historias de Usuario y Given-When-Then): Los criterios de aceptación Dar / Cuando / Entonces ofrecen un enfoque estructurado para definir el comportamiento esperado de las historias de usuario en el desarrollo ágil. Al dividir los criterios en tres secciones distintas – Dar, Cuándo y Entonces –, los equipos pueden lograr mayor claridad, capacidad de prueba y alineación, lo que en última instancia conduce a un desarrollo de productos más exitoso. Incorporar este formato en su proceso Agile puede ayudar a su equipo a ofrecer software de alta calidad que cumpla con las expectativas de los usuarios. 
+- Plantilla Ágil (Historias de Usuario y Given-When-Then): Los criterios de aceptación Dar / Cuando / Entonces ofrecen un enfoque estructurado para definir el comportamiento esperado de las historias de usuario en el desarrollo ágil. Al dividir los criterios en tres secciones distintas – Dar, Cuándo y Entonces –, los equipos pueden lograr mayor claridad, capacidad de prueba y alineación, lo que en última instancia conduce a un desarrollo de productos más exitoso. Incorporar este formato en su proceso Agile puede ayudar a su equipo a ofrecer software de alta calidad que cumpla con las expectativas de los usuarios. 
 
-Plantilla de Karl Wiegers: Karl Wiegers es uno de los referentes más citados en ingeniería de requisitos. Su enfoque adapta la estructura del estándar IEEE 830 hacia un formato más práctico orientado a reglas de negocio y atributos de calidad.
+- Plantilla de Karl Wiegers: Karl Wiegers es uno de los referentes más citados en ingeniería de requisitos. Su enfoque adapta la estructura del estándar IEEE 830 hacia un formato más práctico orientado a reglas de negocio y atributos de calidad.
 //aquí si use IA, aunque si avale  la información. Pero no tengo un link web donde avale la información
 
 ## REFERENCIAS:
